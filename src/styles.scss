@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/*se ve en la pagina http://localhost:4200/  */
+* {
+margin:  0;
+padding : 0;
+box-sizing: border-box;
+}
+:root {
+    --aquamarine: aquamarine;
+    --rojo: red;
+}
+body {
+    background-color:  var(--aquamarine);
+    
+}
