@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'claseAngular';
+  /*Le envio esta data al html*/
+  /*Para mostrar en el Html uso {{nombreDato}}*/
+  edad = 45566;
 }
