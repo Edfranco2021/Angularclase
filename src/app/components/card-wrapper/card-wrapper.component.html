@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div *ngFor="let tarjeta of tarjetas">
+        <app-card 
+        [imagen]="tarjeta.imagen" 
+        [categoria]="tarjeta.categoria" [ofertaInfalible]="tarjeta.ofertaInfalible" 
+        [titulo]="tarjeta.titulo" 
+        [precio]="tarjeta.precio"
+        ></app-card>
+
+    </div>
+
+</div>

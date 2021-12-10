@@ -9,5 +9,6 @@ export class AppComponent {
   title = 'claseAngular';
   /*Le envio esta data al html*/
   /*Para mostrar en el Html uso {{nombreDato}}*/
-  edad = 45566;
+  edad = 45;
+   numeros = [ 45, 47, 887, 23, 57];
 }
